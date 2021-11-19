@@ -1,5 +1,5 @@
 <page>
-    <actionBar title="Svelte Native App" />
+    <actionBar title="Take Break 45m /5m" />
     <stackLayout>
         <label textWrap="{true}">
 
