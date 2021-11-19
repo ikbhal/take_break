@@ -81,9 +81,9 @@
        
     // let timer: string =""; // time will com here
     // let countdown = 45 * 60; // 45 minutes
-    let countdown = 5; // 5 minutes
-    let workCountDown = 2 * 60;
-    let breakCountDown = 1 * 60;
+    let countdown = 5; // 5 seconds
+    let workCountDown = 45 * 60;
+    let breakCountDown = 5 * 60;
     let workBreak =false; // true work, false break
     let timer;
     $: timeMessage = Math.floor(countdown/60) + "m " + (countdown%60) + " s";
